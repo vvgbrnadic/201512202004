@@ -12,6 +12,11 @@
       <artifactId>WorkItemHandler1B</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+      <groupId>WorkItemHandler2B</groupId>
+      <artifactId>WorkItemHandler2B</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
