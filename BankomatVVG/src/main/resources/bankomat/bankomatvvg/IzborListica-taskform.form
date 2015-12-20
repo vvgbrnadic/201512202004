@@ -3,4 +3,5 @@
 <property name="name" value="IzborListica-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="listicIzbor_in" name="#E9E371" type="dataModelerEntry" outId="listicIzbor_out" value="bankomat.bankomatvvg.listicIzborDat" id="listicIzborID"/>
 </form>
