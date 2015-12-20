@@ -1,5 +1,14 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <kbase name="kbases" default="true" eventProcessingMode="stream" equalsBehavior="identity">
-    <ksession name="ksession" type="stateful" default="true" clockType="realtime"/>
+    <ksession name="ksession" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="WorkItemHandler1B.WorkItemHandler1B" name="WorkItemHandler1B"/>
+        <workItemHandler type="WorkItemHandler2B.WorkItemHandler2B" name="WorkItemHandler2B"/>
+        <workItemHandler type="WorkItemHandler3B.WorkItemHandler3B" name="WorkItemHandler3B"/>
+        <workItemHandler type="WorkItemHandler4B.WorkItemHandler4B" name="WorkItemHandler4B"/>
+        <workItemHandler type="WorkItemHandler5B.WorkItemHandler5B" name="WorkItemHandler5B"/>
+        <workItemHandler type="WorkItemHandler6B.WorkItemHandler6B" name="WorkItemHandler6B"/>
+      </workItemHandlers>
+    </ksession>
   </kbase>
 </kmodule>
