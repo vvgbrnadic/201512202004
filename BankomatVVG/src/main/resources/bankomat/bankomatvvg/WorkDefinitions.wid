@@ -2,6 +2,48 @@ import org.drools.core.process.core.datatype.impl.type.StringDataType;
 import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
+      [
+   "name" : "WorkItemHandler6B",
+    "displayName" : "Neuspjesna V7",
+    "icon" : "defaultemailicon.gif"
+  ],
+    
+    [
+   "name" : "WorkItemHandler5B",
+    "displayName" : "Uspjesna V7",
+    "icon" : "defaultemailicon.gif"
+  ],
+    
+    [
+   "name" : "WorkItemHandler4B",
+    "displayName" : "Provjera stanja bon V7",
+    "icon" : "defaultemailicon.gif",
+    "results" : [
+       "podatakBon" : new ObjectDataType("bankomat.bankomatvvg.korisnikDat")
+        ]
+  ],
+    
+    [
+   "name" : "WorkItemHandler3B",
+    "displayName" : "Provjera stanja isplata V7",
+    "icon" : "defaultemailicon.gif",
+    "results" : [
+       "podatak" : new ObjectDataType("bankomat.bankomatvvg.korisnikDat")
+        ]
+  ],
+    
+    [
+   "name" : "WorkItemHandler2B",
+    "displayName" : "Krivi pin V7",
+    "icon" : "defaultemailicon.gif"
+  ],
+    
+      [
+   "name" : "WorkItemHandler1B",
+    "displayName" : "Provjera pina V7",
+    "icon" : "defaultemailicon.gif"
+  ],
+    
   [
     "name" : "Email",
     "parameters" : [
