@@ -9,7 +9,7 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="rangeFormula" value="{T-mobile,T-mobile;Vip,Vip;Tele2,Tele2;Tomato,Tomato}"/>
+<property name="rangeFormula" value="{1,T-mobile;2,Vip;3,Tele2;4,Tomato}"/>
 <property name="inputBinding" value="vrstaBona_in/tipBona"/>
 <property name="outputBinding" value="vrstaBona_out/tipBona"/>
 <property name="fieldClass" value="java.lang.Integer"/>
